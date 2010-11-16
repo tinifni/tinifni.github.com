@@ -21,7 +21,7 @@ ul li { list-style: none outside none; }
   margin-top: 20px;
 }
 
-header { text-align: right; }
+header { text-align: right; margin: 20px; }
 header p { font-size: 14px; margin: 0; }
 
 section { margin: 16px 0; }
