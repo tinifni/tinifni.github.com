@@ -6,7 +6,20 @@ h1 { font: normal 36px/1 Georgia, Times, serif; }
 h2 { margin: 0 0 -7px 0; }
 ul li { list-style: none outside none; }
 
-#container { z-index: 2; position: relative; border: 2px solid black; margin: 0 auto; width: 260px; font: normal 13px/1.2 Arial, Verdana, Helvetica, sans-serif; background-color: #fff; padding: 0 20px 8px 20px; margin-top: 20px; }
+#container {
+  z-index: 2;
+  position: relative;
+  border: 2px solid black;
+  margin: 0 auto;
+  width: 260px;
+  font: normal 13px/1.2 Arial, Verdana, Helvetica, sans-serif;
+  background-color: #fff;
+  padding-top: 0;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
 
 header { text-align: right; }
 header p { font-size: 14px; margin: 0; }
@@ -45,7 +58,10 @@ section { margin: 16px 0; }
   text-align: left;
   position: relative;
   padding: 5px 10px 10px 10px;
-  margin: 0 -20px -8px -20px;
+  margin: 0 -22px -18px -22px;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
 }
 .education h2 { color: #fff; }
 .education a, .education a:active, .education a:visited, .education a:link { color: #ccc; }
