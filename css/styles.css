@@ -2,7 +2,7 @@ html { background-color: #ccc; }
 a, a:active, a:visited, a:link { color: blue; }
 a:hover { cursor: pointer; text-shadow: 2px 2px 4px #ccc; }
 h1,h2,h3,h4,h5,h6 { font: bold 16px/1.5 helvetica, arial, Times, serif; color: #123456; }
-h1 { font: normal 36px/1 Georgia, Times, serif; }
+h1 { margin: 0; font: normal 36px/1 Georgia, Times, serif; }
 h2 { margin: 0 0 -7px 0; }
 ul li { list-style: none outside none; }
 
