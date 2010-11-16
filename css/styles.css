@@ -23,6 +23,8 @@ ul li { list-style: none outside none; }
 
 header { text-align: right; }
 header p { font-size: 14px; margin: 0; }
+header p a, header p a:active, header p a:visited, header p a:link { color: #123456; }
+header p a:hover { cursor: pointer; text-shadow: 2px 2px 4px #333; }
 
 section { margin: 16px 0; }
 .experience { margin: 16px 0; }
