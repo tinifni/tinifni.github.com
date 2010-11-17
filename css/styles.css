@@ -22,7 +22,14 @@ ul li { list-style: none outside none; }
 	box-shadow: 0 4px 10px #8B8B8B;
 }
 
-#header { text-align: right; padding: 20px 0; }
+#header {
+  background: -moz-linear-gradient(center top, #dadada, #fff) repeat scroll 0 0 transparent;
+  background: -webkit-gradient(linear, left top, left bottom, from(#dadada), to(#fff));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dadada', endColorstr='#ffffff');
+  text-align: right;
+  margin: 0 -20px;
+  padding: 20px 10px;
+}
 #header p { font-size: 14px; margin: 0; }
 
 .interest { margin: 20px 0 10px; float: left; width: 25%; }
