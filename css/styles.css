@@ -32,7 +32,7 @@ ul li { list-style: none outside none; }
 }
 #header p { font-size: 14px; margin: 0; }
 
-.interest { margin: 20px 0 10px; float: left; width: 25%; }
+.interest { margin: 5px 0 10px; float: left; width: 25%; }
 
 .experience { float: left; width: 50%; }
 .experience .date { display:block; }
