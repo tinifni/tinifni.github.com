@@ -1,17 +1,15 @@
 html { background-color: #ccc; }
 a, a:active, a:visited, a:link { color: blue; }
-a:hover { cursor: pointer; text-shadow: 2px 2px 4px #ccc; }
+a:hover { cursor: pointer; }
 h1,h2,h3,h4,h5,h6 { font: bold 16px/1.5 helvetica, arial, Times, serif; color: #123456; }
 h1 { margin: 0; font: normal 36px/1 Georgia, Times, serif; }
 h2 { margin: 0 0 -7px 0; }
 ul li { list-style: none outside none; }
 
 #container {
-  z-index: 2;
   position: relative;
-  border: 2px solid black;
   margin: 0 auto;
-  width: 260px;
+  width: 630px;
   font: normal 13px/1.2 Arial, Verdana, Helvetica, sans-serif;
   background-color: #fff;
   padding-top: 0;
@@ -19,50 +17,44 @@ ul li { list-style: none outside none; }
   padding-bottom: 0px;
   padding-left: 20px;
   margin-top: 20px;
+  -moz-box-shadow: 0 4px 10px #8B8B8B;
+  -webkit-box-shadow: 0 4px 10px #8B8B8B;
+	box-shadow: 0 4px 10px #8B8B8B;
 }
 
-header { text-align: right; margin: 20px; }
-header p { font-size: 14px; margin: 0; }
+#header { text-align: right; padding: 20px 0; }
+#header p { font-size: 14px; margin: 0; }
 
-section { margin: 16px 0; }
-.experience { margin: 16px 0; }
+.interest { margin: 20px 0 10px; float: left; width: 25%; }
+
+.experience { float: left; width: 50%; }
 .experience .date { display:block; }
-.experience .company { }
 .experience .company:after { content: " in "; }
-.experience .location { }
 .experience .title { display: block; font-weight: bold; }
+.experience ul { margin-left: -20px; }
 .experience ul li { clear: both; margin-bottom: 6px; list-style: disc outside none; }
 .experience header {
-  -moz-box-shadow: 0 4px 2px rgba(0,0,0,0.6);
-  -webkit-box-shadow: 0 4px 2px rgba(0,0,0,0.6);
-  box-shadow: 0 4px 2px rgba(0,0,0,0.6);
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
-  border-radius: 0;
   background-color: #666;
   color: white;
   display: block;
   text-align: left;
-  position: relative;
-  padding: 10px;
-  margin: 4px -10px 10px -20px;
-  border-top: 2px solid #333;
-  border-right: 2px solid #333;
-  border-bottom: 2px solid #333;
+	padding: 10px;
+	margin: 0 0 10px -20px;
 }
 
 .education {
+	float: left;
+	width: 50%;
+}
+.education div {
   background-color: #123456;
   color: white;
-  display: block;
-  text-align: left;
-  position: relative;
-  padding: 5px 10px 10px 10px;
-  margin: 0 -22px -18px -22px;
-  border-right: 2px solid black;
-  border-bottom: 2px solid black;
-  border-left: 2px solid black;
+	display: block;
+	text-align: left;
+	padding: 10px;
+	margin: 0 -20px 0 0;
+	height: 154px;
 }
 .education h2 { color: #fff; }
 .education a, .education a:active, .education a:visited, .education a:link { color: #ccc; }
-.education a:hover { cursor: pointer; text-shadow: 2px 2px 4px #666; }
+.education a:hover { cursor: pointer; }
