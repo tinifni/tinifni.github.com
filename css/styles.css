@@ -35,11 +35,11 @@ ul li { list-style: none outside none; }
 .interest { margin: 5px 0 10px; float: left; width: 25%; }
 .interest ul { margin-left: -20px; }
 
-.experience { float: left; width: 50%; }
+.experience { float: left; width: 65%; }
 .experience .date { display:block; }
 .experience .company:after { content: " in "; }
 .experience .title { display: block; font-weight: bold; }
-.experience ul { margin-left: -20px; }
+.experience ul { margin-left: -30px; }
 .experience ul li { clear: both; margin-bottom: 6px; list-style: disc outside none; }
 .experience header {
   background-color: #666;
@@ -52,7 +52,7 @@ ul li { list-style: none outside none; }
 
 .education {
 	float: left;
-	width: 50%;
+	width: 35%;
 }
 .education div {
   background-color: #123456;
