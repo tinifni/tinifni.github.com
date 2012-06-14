@@ -35,7 +35,7 @@ ul li { list-style: none outside none; }
 .interest { margin: 5px 0 10px; float: left; width: 25%; }
 .interest ul { margin-left: -20px; }
 
-.experience { float: left; width: 65%; }
+.experience { float: left; width: 60%; }
 .experience .date { display:block; }
 .experience .company:after { content: " in "; }
 .experience .title { display: block; font-weight: bold; }
@@ -52,7 +52,7 @@ ul li { list-style: none outside none; }
 
 .education {
 	float: left;
-	width: 35%;
+	width: 40%;
 }
 .education div {
   background-color: #123456;
